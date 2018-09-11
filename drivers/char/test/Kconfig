@@ -1,0 +1,9 @@
+menu "testdrv"
+
+config testdrv_LED
+	tristate "testdrv_gec210_led"
+	default n
+	---help---
+	The led water made by xxx which was usrd by platfcorm!
+
+endmenu
